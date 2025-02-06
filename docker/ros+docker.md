@@ -12,6 +12,7 @@ changes made.
 
 ## Docker manual installation: BASH script
 
+```
 
 s# Add Docker's official GPG key:
 sudo apt-get update
@@ -26,5 +27,4 @@ echo \
   $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 sudo apt-get update
-
-s
+```
