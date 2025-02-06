@@ -14,6 +14,11 @@ git init
 git clone repo-url
 ```
 
+```
+git remote add origin github-remote-url
+git push -u origin main
+```
+
 ## creating & changing branches
 
 To create a `feature` branch, 
@@ -71,7 +76,8 @@ for checking changes make to a branch
 git diff branch-name
 ```
 
-## Best practices for `pre-commit` workflow.
+## Best practices for `commit` workflow.
 
-- Always `git pull --rebase` for changing the file to latest commit. 
+- use `git fetch origin`, to have the latest version of the project.
+- Always `git pull --rebase` for changing the file to latest commit.
 -
